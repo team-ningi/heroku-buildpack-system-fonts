@@ -14,10 +14,26 @@ git push heroku master
 
 ## Building
 
+Extract the contents of the tarball to the `fonts` directory.
+
+```bash
+tar -xvzf fonts.tar.gz ./fonts/
+```
+
+Add new fonts to the `fonts` directory.
+
+Compress the contents of the `fonts` directory into a tarball.
+
 ```bash
 tar -czvf fonts.tar.gz ./fonts/
 ```
 
-| Fonts   |
-| ------- |
-| ✓ Arial |
+| Fonts        |
+| ------------ |
+| ✓ Inter      |
+| ✓ Manrope    |
+| ✓ Montserrat |
+| ✓ NotoSerif  |
+| ✓ Nunito     |
+| ✓ Poppins    |
+| ✓ PT Sans    |
